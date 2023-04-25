@@ -1,0 +1,23 @@
+.ala {
+    background-color: rgba(210, 154, 220, 0.756);
+    color: rgb(255, 250, 250);
+    border: 0px;
+    border-radius: 2px;
+    font-size: 16px;
+
+}
+
+.fundo {
+    background-color: rgba(175, 159, 199, 0.432);
+}
+
+.numero {
+    position: right 40px;
+    font-size: 22px;
+    border: 0px;
+}
+
+.inside {
+    width: 550px;
+    border: 5px solid rgb(175, 130, 201)
+}

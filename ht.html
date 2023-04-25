@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="fundo">
+
+    <head>
+        <link rel="stylesheet" href="cs.css">
+        <script src="mi.js"></script>
+
+        <!-- 1 tarefa do cubo -->
+        <center>
+            <h1>Exercício de funções em JavaScript </h1>
+            <br>
+            <div class="tudo">
+                <div class="inside">
+                    <h2>Cubo de um número</h2>
+                    <label for="numero">Digite um número:</label>
+                    <br>
+                    <br>
+                    <input type="numero" id="numero" name="numero">
+                    <button class="ala" type="button" onclick="cubo()">Calcule</button>
+
+                    <p id="resultado"></p>
+                </div>
+
+                <br>
+                <div class="inside">
+                    <!-- 2 tarefa do Fahrenheit   -->
+
+                    <h2> Fahrenheit para Celsius</h2>
+
+                    <label for="numero">Digite um número:</label>
+                    <br>
+                    <br>
+                    <input type="fahrenheit" id="fahrenheit" name="fahrenheit">
+                    <button class="ala" type="button" onclick="fare()">Calcule </button>
+
+                    <p id="resultado2"></p>
+                </div>
+                <br>
+                <div class="inside">
+
+                    <!-- 3 tarefa do Triângulo   -->
+                    <h2>Área do Triângulo</h2>
+                    <label for="base">Digite a base do triângulo:</label>
+                    <br>
+                    <input type="numero" id="base" name="base">
+                    <br>
+                    <br>
+                    <label for="altura">Digite a altura do triângulo:</label>
+                    <br>
+                    <input type="numero" id="altura" name="altura">
+                    <br>
+                    <br>
+                    <button class="ala" onclick="calcularAreaTriangulo(base, altura)">Calcule </button>
+
+                    <p id="resultado3"></p>
+                </div>
+                <br>
+                <div class="inside">
+                    <!-- 4 tarefa do Círculo  -->
+                    <h2>Área e Perímetro do Círculo </h2>
+                    <label for="raio">Digite o raio do Círculo:</label>
+                    <br>
+                    <input type="numero" id="raio" name="raio">
+                    <br>
+                    <br>
+                    <button class="ala" onclick="calcularPerímetrodoCírculo(raio)">Calcule Perímetro</button>
+                    <button class="ala" onclick="calcularÁreadoCírculo(raio)">Calcule Área</button>
+
+                    <p id="resultado4"></p>
+                </div>
+                <br>
+                <div class="inside">
+                    <!-- 5 tarefa do 5% de desconto -->
+
+                    <h2>5% de Desconto</h2>
+                    <label for="valor">Digite o valor do produto:</label>
+                    <br>
+                    <input type="numero" id="valor" name="valor">
+                    <br>
+                    <br>
+                    <button class="ala" onclick="calcularDesconto()">Calcule </button>
+
+                    <p id="resultado5"></p>
+                </div>
+
+
+                <br>
+                <div class="inside">
+
+                    <!-- 7 combustível -->
+                    <h2>Combustível</h2>
+                    <label for="dinheiro">Quanto dinheiro você tem?</label>
+                    <br>
+                    <input type="numero" id="dinheiro">
+                    <button class="ala" onclick="calcularCombustivel()">Calcule</button>
+                    <br>
+                    <br>
+                    <p>Com R$<span id="dinheiro-digitado"></span>, você pode comprar <span id="litros"></span> litros de
+                        combustível e andar <span id="km"></span> quilômetros.</p>
+                </div>
+            </div>
+        </center>
+
+
+</body>
+
+</html>
